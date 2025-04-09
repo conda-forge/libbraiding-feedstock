@@ -25,6 +25,7 @@ requirements:
     - libtool
     - m4
     - make
+    - pkg-config
   host:
   run:
 
