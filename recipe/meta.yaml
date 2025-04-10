@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/miguelmarco/libbraiding/archive/{{ version }}.tar.gz
   sha256: c0910b342fe6ecee20759617263c20cf45d827abc6eac83ffd84d4565633ce3c
+  patches:
+    - s.patch
 
 build:
   number: 0
