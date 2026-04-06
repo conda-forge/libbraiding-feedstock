@@ -1,13 +1,13 @@
 {% set name = "libbraiding" %}
-{% set version = "1.3.1" %}
+{% set version = "1.3.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/miguelmarco/libbraiding/archive/{{ version }}.tar.gz
-  sha256: c0910b342fe6ecee20759617263c20cf45d827abc6eac83ffd84d4565633ce3c
+  url: https://github.com/enriqueartal/libbraiding/archive/{{ version }}.tar.gz
+  sha256: sha256:334b401f0903f55f7b7cc62efd4e63b1d38b5f6dd8082c6e0e0a3f68ca99055f
   patches:
     - s.patch
 
