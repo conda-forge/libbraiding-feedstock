@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/miguelmarco/libbraiding/releases/download/{{ version }}/libbraiding-{{ version }}.tar.gz
-  sha256: d43a32e7770d5c9a89ae489c5ac353da9610a761f76745382cf7612eab046ffd
+  url: https://github.com/miguelmarco/libbraiding/archive/{{ version }}.tar.gz
+  sha256: e6a21e037604a1a6ed30cd1cda69787a730a86c768c6a4e50b5362142fc96c5d
 
 build:
   number: 0
