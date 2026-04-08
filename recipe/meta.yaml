@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/miguelmarco/libbraiding/archive/{{ version }}.tar.gz
-  sha256: sha256:d43a32e7770d5c9a89ae489c5ac353da9610a761f76745382cf7612eab046ffd
+  sha256: d43a32e7770d5c9a89ae489c5ac353da9610a761f76745382cf7612eab046ffd
   patches:
     - s.patch
 
